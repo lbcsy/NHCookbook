@@ -14,7 +14,7 @@ namespace ConfigByAppConfig
         {
             var nhConfig = new Configuration().Configure();
             var sessionFactory = nhConfig.BuildSessionFactory();
-            Console.WriteLine("NHibernate Configured!");
+            Console.WriteLine("NHibernate configured by App.config!");
             Console.ReadKey();
         }
     }

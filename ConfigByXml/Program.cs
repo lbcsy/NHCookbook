@@ -14,7 +14,7 @@ namespace ConfigByXml
         {
             var nhConfig = new Configuration().Configure();
             var sessionFactory = nhConfig.BuildSessionFactory();
-            Console.WriteLine("NHibernate Configured!");
+            Console.WriteLine("NHibernate configured by hibernate.cfg.xml!");
             Console.ReadKey();
         }
     }
