@@ -31,11 +31,11 @@ namespace ConfigByAppConfig
             var mapper = new ConventionModelMapper();
             nhConfig.AddMapping(mapper.CompileMappingFor(new[] { typeof(TestClass) }));
             var schemaExport = new SchemaExport(nhConfig);
-            schemaExport.Create(false, true);
-            Console.WriteLine("已创建表!");
+            //schemaExport.Create(false, true);
+            //Console.WriteLine("已创建表!");
 
-            //schemaExport.SetOutputFile("db.sql").Execute(false, false, false);
-            //Console.WriteLine("生成了SQL文件：{0}", Path.GetFullPath("db.sql"));
+            schemaExport.SetOutputFile("db.sql").Execute(false, false, false);
+            Console.WriteLine("生成了SQL文件：{0}", Path.GetFullPath("db.sql"));
 
             Console.ReadKey();
         }
