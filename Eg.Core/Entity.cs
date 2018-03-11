@@ -17,4 +17,15 @@ namespace Eg.Core
         public virtual string Description { get; set; }
         public virtual decimal UnitPrice { get; set; }
     }
+
+    public class Book : Product
+    {
+        public virtual string ISBN { get; set; }
+        public virtual string Author { get; set; }
+    }
+
+    public class Movie : Product
+    {
+        public virtual string Director { get; set; }
+    }
 }
