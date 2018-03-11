@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{417D4A48-C03A-4039-B91B-C73DDE0A158A}"
 	ProjectSection(SolutionItems) = preProject
 		ConfigByAppConfig\nhibernate-configuration.xsd = ConfigByAppConfig\nhibernate-configuration.xsd
+		..\SharedLib\NHibernate\nhibernate-mapping.xsd = ..\SharedLib\NHibernate\nhibernate-mapping.xsd
 	EndProjectSection
 EndProject
 Global
