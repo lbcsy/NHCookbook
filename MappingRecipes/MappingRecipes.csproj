@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassHierarchy\Recipe.cs" />
+    <Compile Include="Components\Recipe.cs" />
     <Compile Include="MappingWithXml\Recipe.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

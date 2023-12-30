@@ -28,4 +28,20 @@ namespace Eg.Core
     {
         public virtual string Director { get; set; }
     }
+
+    public class Address
+    {
+        public virtual Guid Id { get; protected set; }
+        public virtual string Lines { get; set; }
+        public virtual string City { get; set; }
+        public virtual string State { get; set; }
+        public virtual string ZipCode { get; set; }
+    }
+
+    public class Customer: Entity
+    {
+        public virtual string Name { get; set; }
+        public virtual Address BillingAddress { get; set; }
+        public virtual Address ShippingAddress { get; set; }
+    }
 }

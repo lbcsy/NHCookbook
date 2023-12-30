@@ -74,5 +74,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Mappings\Movie.hbm.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Customer.hbm.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
